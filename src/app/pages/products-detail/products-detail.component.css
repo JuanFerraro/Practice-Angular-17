@@ -1,0 +1,14 @@
+.container{
+  display: grid;
+  justify-items: center;
+}
+
+img{
+  max-width: 75%;
+  border-radius: 12px;
+  margin-top: 4px;
+}
+
+.card{
+  align-items: center;
+}

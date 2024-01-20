@@ -1,1 +1,19 @@
-<p>products-detail works!</p>
+<div class="container">
+
+  @if (loading) {
+    <h5>Loading...</h5>
+  }@else {
+    <h1> {{ product?.title }} </h1>
+
+    <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
+      <img src="{{ product?.image }}" class="card-img-top" alt="{{ product?.title }}">
+      <div class="card-body">
+        <h5 class="card-title"> {{ product?.title }} </h5>
+        <p class="card-text"> {{ product?.description }} </p>
+        <h4> {{ product?.price | currency }} </h4>
+      </div>
+    </div>
+
+  }
+
+</div>
