@@ -1,0 +1,10 @@
+
+.container, .loading {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+}
+
+img {
+  width: 25%;
+}
